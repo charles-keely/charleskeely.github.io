@@ -9,7 +9,7 @@
 
 ## In-Class Assignments
 
-    -ICA1
+    -[ICA1](https://docs.google.com/document/d/1SVwC_2eZ7PK1kIE0lm32ScXtrjZPemB4TEBJoBqv2A4/edit?usp=sharing)
     -ICA2
     -ICA3
     -ICA4
@@ -27,7 +27,7 @@
 
 ## Weekly Assignments
 
--WA1
+-[WA1](https://charles-keely.github.io/charleskeely.github.io/wa/wa1.html)
 -WA2
 -WA3
 -WA4
