@@ -21,107 +21,229 @@
 </div>
 
 <h1>Changelog</h1>
-<br>
+
 <ul>
-    <li><strong>Page 1</strong></li>
-        <ol>
-            <li>
-                Line 1: 
-                <br>
-                &lt;!DOCTYPE html&gt;
-            </li>
-            <li>
-                Line 2: 
-                <br>
-                &lt;html lang="en"&gt;
-            </li>
-            <li>
-                Lines 5-7:
-                <br>
-                &lt;meta charset="UTF-8"&gt;
-                <br>
-                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-                <br>
-                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-            </li>
-            <li>
-                Line 83: 
-                <br>
-                Then a Doritos covered in &lt;em&gt;crème fraiche&lt;/em&gt; and caviar appeared;—
-            </li>
-            <li>
-                Line 122: 
-                <br>
-                &lt;/html&gt;
-            </li>
-        </ol>
-    <li><strong>Page 2</strong></li>
-        <ol>
-            <li>
-                Line 27:
-                <br>
-                the &lt;b&gt;New Beehive Inn&lt;/b&gt;
+    <li>Page 1</li>
+        <ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        Missing: &lt;!DOCTYPE html&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;!DOCTYPE html&gt; on line 1
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        Missing: &lt;html lang="en"&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;html lang="en"&gt; on line 2
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        Missing:
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
 
-            </li>
-            <li>
-                Line 53:
-                <br>
-                &lt;h2&gt;&lt;b&gt;Interior&lt;/b&gt;&lt;/h2&gt;
-            </li>
-            <li>
-                Line 57:
-                <br>
-                &lt;a href="https://en.wikipedia.org/wiki/Segmental_arch"&gt;segmental arch&lt;/a&gt;
-            </li>
-            <li>
-                Logic Error:
-                <br>
-                The heading hierarchy was odd, with an h3 being used before an h2, and an h6 being used for no reason. Put section heads as h2 and paragraph heads as h3.
-            </li>
-        </ol>
-    <li><strong>Page 3</strong></li>
-        <ol>
-            <li>
-                Line:
-                <br>
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;		on lines 5-7
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        &lt;em&gt;crème fraiche&lt;e&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;em&gt;crème fraiche&lt;/em&gt;
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        Missing &lt;/html&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;/html&gt; on line 122
+                    </li>
+                </ul>
 
-            </li>
-            <li>
-                Line:
-                <br>
 
-            </li>
-            <li>
-                Logic Error:
-                <br>
+        </ul>
 
-            </li>
-        </ol>
-    <li><strong>Page 4</strong></li>
-        <ol>
-            <li>
-                Line:
-                <br>
+        <li>Page 2</li>
+        <ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        &lt;b&gt;New Beehive Inn&lt;&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;b&gt;New Beehive Inn&lt;/b&gt;
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        &lt;b&gt;&lt;h2&gt;Interior&lt;/h2&gt;&lt;/b&gt;, bold has to be a child of the heading element.
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;h2&gt;&lt;b&gt;Interior&lt;/b&gt;&lt;/h2&gt;
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        &lt;a href="where do i go"&gt;segmental arch&lt;/a&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;a href="https://en.wikipedia.org/wiki/Segmental_arch"&gt;segmental arch&lt;/a&gt;. There has to be some sort of link without spaces in the quotations.
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        There was no consistent heading hierarchy involved and big headings as well as ultra small headings were used in the wrong places.
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        Used a heading hierarchy where the first heading is the biggest, all titles are h2, and all section headers are h3 
+                    </li>
+                </ul>
+        </ul>
 
-            </li>
-            <li>
-                Line:
-                <br>
+        <li>Page 3</li>
+        <ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        &lt;l&gt;a column is usually identified by a name;&lt;/l&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;li&gt;a column is usually identified by a name;&lt;/li&gt;
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        &lt;td&gt;Lily&lt;/&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;td&gt;Lily&lt;/td&gt;
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        A few of the table rows had too many or too little columns, as established by the first data set. This was due to the misplacement of data. Also, “Zapata” was typed as a header instead of table data.
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        Put all of the misplaced names and numbers in the correct order. Corrected “Zapata” by changing “th” to “td.”
+                    </li>
+                </ul>
+        </ul>
+        <li>Page 4</li>
+        <ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        Missing: &lt;!DOCTYPE html&gt;
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;!DOCTYPE html&gt; on line 1
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        The entiire table with the images is missing alt tags.
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        Alt tags added to each photo.
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        This line is missing the table data element:
+&lt;img src="img/orangeCat.png" alt="orange Cat"&gt;
 
-            </li>
-            <li>
-                Line:
-                <br>
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;td&gt;&lt;img src="img/orangeCat.png" alt="orange Cat"&gt;&lt;/td&gt;
+                    </li>
+                </ul>
+            <li>Error:</li>
+                <ul>
+                    <li>
+                        This line is missing the first part of the table data element:
+                        &lt;img src="img/creature.png" alt="creature"&gt;&lt;/td&gt;
+                        
+                    </li>
+                </ul>
+            <li>Correct:</li>
+                <ul>
+                    <li>
+                        &lt;td&gt;&lt;img src="img/creature.png" alt="creature"&gt;&lt;/td&gt;
+                    </li>
+                </ul>
 
-            </li>
-            <li>
-                Logic Error:
-                <br>
 
-            </li>
-        </ol>
+        </ul>
 </ul>
-
 
 
 <body>
