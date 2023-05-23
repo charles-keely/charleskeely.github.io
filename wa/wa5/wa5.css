@@ -60,6 +60,16 @@
     top: 8px;
 }
 
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    height: 25px;
+    width: auto;
+}
+
 
 
 
