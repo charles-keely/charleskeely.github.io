@@ -1,0 +1,68 @@
+
+
+.score img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.team1{
+    width: 28%;
+    float: left;
+    padding: 20px;
+    background-color: yellow;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+
+.team2{
+    width: 28%;
+    float: left;
+    padding: 20px;
+    background-color: crimson;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.timer{
+    width: 28%;
+    float: left;
+    padding: 20px;
+    background-color: black;
+}
+
+.team, .record, .score{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.quarter, .time-left, .down{
+    float: left;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.team{
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.score{
+    font-size: 1.8em;
+    font-weight: bolder;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+
+
+
+
