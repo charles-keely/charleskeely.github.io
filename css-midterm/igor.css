@@ -1,0 +1,134 @@
+body{
+    background-color: #f4acc4;
+    border: solid 1px white;
+}
+
+header{
+    display: flex;
+    margin: 1px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+    header{
+      flex-direction: column;
+      padding-bottom: 35px;
+    }
+}
+
+header img{
+    height: 500px;
+    width: auto;
+}
+
+.toc{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: italic;
+    flex: 50%;
+}
+
+.animation-container{
+    height: 500px;
+    width: auto;
+    display: flex, block;
+}
+
+.animation-container p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+
+.statement{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    display: flex;
+    position: relative;
+}
+
+
+#tyler-stage{
+    height: 400px;
+    width: auto;
+    margin: 10px;
+    float: left; 
+    shape-outside: url(tyler-stage.png);
+}
+
+@media screen and (max-width: 900px) {
+    .statement{
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .statement img{
+      height: 400px;
+      width: fit-content;
+    }
+}
+
+
+.statement p{
+    text-align: center;
+}
+
+#breaker{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 20px;
+    padding-bottom: 90px;
+}
+
+
+.song{
+    margin: 40px;
+}
+.lyrics{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:200;
+    padding-top: 8px;
+    padding-left: 80px;
+    padding-right: 80px
+}
+
+@media screen and (max-width: 720px) {
+    .lyrics{
+        padding-left: 40px;
+        padding-right: 40px 
+    }
+}
+
+.song h2{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:link{
+    color: #c91827;
+    
+}
+
+a:visited{
+    color: #c91827;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1.2px dashed;
+}
