@@ -97,6 +97,10 @@ header img{
 .song{
     margin: 40px;
 }
+
+.song h2{
+    color: #c91827;
+}
 .lyrics{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -182,4 +186,9 @@ a{
         padding-left: 80px;
     }
 
+iframe{
+    border: 0;
 }
+
+}
+
