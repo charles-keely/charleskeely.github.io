@@ -16,7 +16,7 @@ async function newDog(){
         console.log(dogPicURL);
         const img = document.querySelector("img");
         img.src = dogPicURL;
-      
+        
     }
     catch(err) {
         console.log(err) 
