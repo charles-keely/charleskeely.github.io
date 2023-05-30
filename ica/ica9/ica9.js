@@ -7,6 +7,7 @@ const endpoint = "https://trivia.cyberwisp.com/getrandomchristmasquestion";
 
 async function newTrivia(){
     try{
+        console.log("button clicked");
         const response = await fetch(endpoint);
     
         if(!response.ok){
