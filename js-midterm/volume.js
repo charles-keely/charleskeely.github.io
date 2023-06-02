@@ -21,8 +21,8 @@ const hundredPics = [
     "https://media.giphy.com/media/W69xBwRM9fhh30eyMw/giphy-downsized-large.gif",
     "https://media.giphy.com/media/wLJSjc5fzMJtS/giphy.gif",
     "https://media.giphy.com/media/nbJUuYFI6s0w0/giphy.gif",
-    "https://media.giphy.com/media/3orifiNN5G0FHxUQ8g/giphy.gif",
     "https://media.giphy.com/media/vNIFinNf5zI0U/giphy.gif",
+    "https://media.giphy.com/media/3orifiNN5G0FHxUQ8g/giphy.gif",
     "https://media.giphy.com/media/xT8qB4c7mdfV2OZ2WQ/giphy.gif",
     "https://media.giphy.com/media/LPr5yo2vUQQmoQhEja/giphy.gif"
 ];
@@ -53,6 +53,8 @@ toggle.addEventListener('change', function() {
 
     async function volumeHundred(){
         volumeHeading.textContent = "Volume: 100%";
+        var iconImage = document.querySelector("#iconImage");
+        iconImage.src = "volume-on.png"
         var i = 0;
         while(i < hundredPics.length && switchSetting == true){
             image.src = hundredPics[i];
@@ -67,6 +69,8 @@ toggle.addEventListener('change', function() {
 
     async function volumeZero(){
         volumeHeading.textContent = "Volume: 0%";
+        var iconImage = document.querySelector("#iconImage");
+        iconImage.src = "volume-off.png"
         var i = 0;
         while(i < zeroPics.length && switchSetting == false){
             image.src = zeroPics[i];
