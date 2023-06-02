@@ -64,6 +64,14 @@ toggle.addEventListener('change', function() {
             if(i == hundredPics.length){
                 i = 0;
             }
+
+            if(image.src == "https://media.giphy.com/media/LPr5yo2vUQQmoQhEja/giphy.gif"){
+                document.getElementById('overlay').hidden = false;
+            }
+
+            else{
+                document.getElementById('overlay').hidden = true;
+            }
             const delay = ms => new Promise(res => setTimeout(res, ms));
             await delay(2100);
         }
@@ -72,6 +80,7 @@ toggle.addEventListener('change', function() {
     async function volumeZero(){
         volumeHeading.textContent = "Volume: 0%";
         var iconImage = document.querySelector("#iconImage");
+        document.getElementById('overlay').hidden = true;
         iconImage.src = "volume-off.png"
         var i = 0;
         while(i < zeroPics.length && switchSetting == false){
@@ -79,6 +88,10 @@ toggle.addEventListener('change', function() {
             i++;
             if(i == zeroPics.length){
                 i = 0;
+            }
+
+            if(image.src == "https://media.giphy.com/media/LPr5yo2vUQQmoQhEja/giphy.gif"){
+                overlay.color = transparent;
             }
             const delay = ms => new Promise(res => setTimeout(res, ms));
             await delay(1600);
