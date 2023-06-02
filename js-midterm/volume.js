@@ -7,7 +7,6 @@ const zeroPics = [
     "https://media.giphy.com/media/XfhlR0i9Xq5MDVH3Y0/giphy.gif",
     "https://media.giphy.com/media/ifD40IvbLoqRX8mVAa/giphy.gif",
     "https://media.giphy.com/media/4QEGwDMDbOYC2G7m9p/giphy.gif",
-    "https://media.giphy.com/media/yow6i0Zmp7G24/giphy.gif",
 
 ];
 
@@ -16,7 +15,6 @@ const hundredPics = [
     "https://media.giphy.com/media/HhTXt43pk1I1W/giphy.gif",
     "https://media.giphy.com/media/2GVVvT5ATZtUQ/giphy.gif",
     "https://media.giphy.com/media/jQV6eGO1fpNFIek0Wt/giphy.gif",
-    "https://media.giphy.com/media/8ozpkQ1sQtMdwXQdOB/giphy.gif",
     "https://media.giphy.com/media/FS8764eWyDKSc/giphy.gif",
     "https://media.giphy.com/media/3ohhwN2JWxoJhQ7vyw/giphy.gif",
     "https://media.giphy.com/media/5xoBwmuSgKVpByxh3D/giphy.gif",
