@@ -75,7 +75,7 @@ toggle.addEventListener('change', function() {
                 i = 0;
             }
             const delay = ms => new Promise(res => setTimeout(res, ms));
-            await delay(1500);
+            await delay(1600);
         }
     }
 
