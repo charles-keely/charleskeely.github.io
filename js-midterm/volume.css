@@ -148,7 +148,7 @@ body{
     margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 800px) {
     #theImage{
         width: 500px;
         height: auto;
