@@ -25,7 +25,8 @@ const hundredPics = [
     "https://media.giphy.com/media/l2JdUbk4wUWKetFja/giphy.gif",
     "https://media.giphy.com/media/h4ZmuroQKVv3ncSJSq/giphy-downsized-large.gif",
     "https://media.giphy.com/media/xT8qB4c7mdfV2OZ2WQ/giphy.gif",
-    "https://media.giphy.com/media/LPr5yo2vUQQmoQhEja/giphy.gif"
+    "https://media.giphy.com/media/LPr5yo2vUQQmoQhEja/giphy.gif",
+    "https://media.giphy.com/media/dANirRNyxEA8VinCgk/giphy.gif"
 ];
 
 
